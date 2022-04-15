@@ -1,0 +1,26 @@
+button {
+    margin: 1rem auto;
+    display: flex;
+    width: 9rem;
+    padding: 0.6rem;
+    font-size: 15px;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #ff8533;
+    border-radius: 0.3rem;
+    background-color: #ff8533;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  button:hover {
+    border: 1px solid #f02b42;
+    background-color: #f02b42;
+    display: flex;
+  }
+  button:disabled {
+    border: 1px solid #b4b4b4;
+    background-color: #b4b4b4;
+    color: black;
+    cursor: not-allowed;
+  }

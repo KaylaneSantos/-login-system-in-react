@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;1,100&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  margin: 8rem auto 2rem;
+  max-width: 55rem;
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 1.5rem 1.5rem;
+}
+.input_name {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-family: "Grandstander", cursive;
+  font-weight: 400;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: #ebebeb;
+  margin-bottom: 2rem;
+}
+::selection {
+  background-color: #f02b42;
+}
+input[type="text"],
+input[type="email"] {
+  width: 17rem;
+  background: none;
+  border: 2px solid #ff8533;
+  outline: none;
+  display: flex;
+}
+input[type="text"],
+input[type="password"] {
+  width: 17rem;
+  background: none;
+  border: 2px solid #ff8533;
+  outline: none;
+  margin: 1rem auto;
+  display: flex;
+}
+::placeholder {
+  color: rgba(240, 248, 255, 0.74);
+  font-family: "Roboto Mono", monospace;
+}
+label {
+  font-family: "Grandstander", cursive;
+  font-size: medium;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-right: 11rem;
+  color: #ebebeb;
+}
+span::selection {
+  background-color: white;
+  color: black;
+}
+input:focus {
+  transition: 300ms;
+  border: 2px solid #f02b42;
+}
+.pass {
+  padding-right: 11.2rem;
+}
+.msg_error {
+  color: #f02b42;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  max-width: 20rem;
+}
+.msg_success {
+  margin-bottom: 1rem;
+}
+.signup {
+  display: flex;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 12px;
+  justify-content: end;
+  justify-items: end;
+  margin-right: 0.9rem;
+  color: #ffffff;
+}
+a {
+  color: #ff0062;
+}
+a:hover {
+  color: #ff8533;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap");
+
+.msg_error {
+  color: #ffffff;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  background: none;
+  max-width: 12rem;
+}
+.center {
+  margin: 8rem auto 2rem;
+  max-width: 55rem;
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 1.5rem 1.5rem;
+}
+h2 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 1rem;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.form {
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  font-size: small;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 12px;
+}
+p {
+  color: #ffffff;
+}
+.msg_error {
+  color: #f02b42;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  max-width: 20rem;
+}
+.msg_success {
+  margin-bottom: 1rem;
+}
+input {
+  color: white;
+}
+input[type="text"] {
+  padding: 0.7rem;
+}
+input[type="password"] {
+  padding: 0.7rem;
+}
+
+span::selection {
+  background-color: white;
+  color: black;
+}
