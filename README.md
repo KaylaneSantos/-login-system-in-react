@@ -16,6 +16,7 @@
 * Autenticação JWT
 * Validação de erros comuns, como 401(Unauthorized)
 * Validação de inputs
+* Conexão com nami wallet
 
 <i> Todos os componentes são funcionais </i>
 <br />
